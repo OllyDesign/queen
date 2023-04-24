@@ -3,12 +3,12 @@ import "./Queen.css";
 function Queen() {
   return (
     <div className="flexbox-container">
-      <div className="flex-item-1">Flex 1
-      <div className="residence-1">one</div>
-      <div className="residence-2">two</div>
-      <div className="residence-3">three</div>
+      <div className="flex-item-1">
+        <h1>HELO MEDITATORS</h1>
       </div>
-      <div className='flex-item-2'>Flex 2</div>
+      <div className="flex-item-2">
+        <h2>WELCOME TO MEDITATION 101</h2>
+      </div>
     </div>
   );
 }

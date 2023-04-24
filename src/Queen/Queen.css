@@ -1,6 +1,6 @@
 .flexbox-container{
     display: flex;
-    background-color: peru;
+    /* background-color: peru; */
     height: 9500px;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -11,9 +11,9 @@
     text-align: center;
     margin: 0;
     width: 850px;
-    background-color: pink;
+    /* background-color: pink; */
 }
 .flex-item-2{
     width: 850px;
-    background-color: purple;
+    /* background-color: purple; */
 }

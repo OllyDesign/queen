@@ -1,10 +1,12 @@
-import Malaysia from "./Styletutorials/Malaysia";
 
+import Queen from "./Queen/Queen";
+import PreLoader from "./Queen/PreLoader";
 
 function App() {
   return (
     <div>
-     <Malaysia/>
+    <PreLoader/>
+    <Queen/>
     </div>
   );
 }
