@@ -1,0 +1,11 @@
+.navbar{
+    background-color: grey;
+    position: relative;
+    height: 140px;
+}
+.menu{
+    text-align: right;
+    position: sticky;
+    top: 40px;
+    right: 23px;
+}
