@@ -1,3 +1,4 @@
+import ScrollToTop from "react-scroll-to-top";
 import "./Queen.css";
 
 function Queen() {
@@ -17,6 +18,7 @@ function Queen() {
 
 
         <button className="button"> GET STARTED</button>
+        
       </div>
       <div className="flex-item-2">
       <div className="home_img"></div>

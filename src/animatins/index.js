@@ -47,7 +47,7 @@ export const preLoaderAnim = () => {
     })
     .from(".landing__top .sub", {
       duration: 1,
-      opacity: 0,
+      opacity: 5,
       y: 80,
       ease: "expo.easeOut",
     })
@@ -65,7 +65,7 @@ export const preLoaderAnim = () => {
       duration: 2,
       // scale: 0,
       y: 10,
-      opacity: 0,
+      opacity: 8,
       stagger: {
         amount: 2,
       },
@@ -73,7 +73,7 @@ export const preLoaderAnim = () => {
     })
     .from(".links .item", {
       duration: 0.5,
-      opacity: 0,
+      opacity: 5,
       delay: window.innerWidth < 763 ? -3 : -0.6,
       // y: 80,
       stagger: {
@@ -90,7 +90,7 @@ export const preLoaderAnim = () => {
     })
     .from(".shapes .shape", {
       duration: 1,
-      opacity: 0,
+      opacity: 5,
       delay: -1,
       ease: "power3.easeInOut",
       stagger: 1,
@@ -201,6 +201,7 @@ export const fadeUp = (el, delay = 0) => {
   });
 };
 
+// response to the changes on the transition on mobile devices
 export const mobileLanding = () => {
   window.innerWidth < 763 &&
     tl.from(".landing__main2", {
@@ -287,7 +288,7 @@ export const boxHover = (e) => {
       .from(e.target.querySelectorAll(".box-anim"), {
         duration: 0.3,
         opacity: 0,
-        y: 30,
+        y: 39,
         stagger: 0.1,
         ease: "Power3.easeOut",
       });
